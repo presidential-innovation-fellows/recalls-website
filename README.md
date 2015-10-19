@@ -4,7 +4,11 @@
 
 To start the Jekyll server locally, run `jekyll serve` in the project directory.
 
-## Guidelines
+## Brand Guidelines
+
+This project uses the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/).
+
+## Code Guidelines
 
 Use the following guides for getting things done, programming well, and
 programming in style.

@@ -8,3 +8,7 @@ linters:
     enabled: true
     max_depth: 3
     severity: warning
+
+scss:
+  exclude:
+    - "_sass/us-design-standards/**/*"
