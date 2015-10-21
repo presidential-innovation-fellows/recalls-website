@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,700,300);
+
+$header-font-family: "Fira Sans";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+}

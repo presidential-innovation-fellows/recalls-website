@@ -1,0 +1,48 @@
+.banner {
+  background-color: lighten($color-primary, 57);
+  padding: 3.5em 0;
+  text-align: center;
+
+  @include media($medium-screen) {
+    min-height: 30em;
+    padding: 8em 0;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    font-size: 1em;
+    margin: 0.5em auto 0;
+    max-width: 40em;
+
+    @include media($medium-screen) {
+      font-size: 1.2em;
+    }
+  }
+
+  .usa-button {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 1em 1.2em;
+  }
+}
+
+.blue {
+  color: $color-primary;
+  font-size: 0.8em;
+}
+
+.logo {
+  font-size: 3.5em;
+  text-align: center;
+
+  @include media($medium-screen) {
+    font-size: 5em;
+  }
+
+  .blue {
+    font-weight: normal;
+  }
+}
